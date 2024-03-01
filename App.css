@@ -1,0 +1,136 @@
+
+.btn-primary{
+    border: none;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+    width:300px;
+    color: white;
+    background-color: #FFB30F;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #FFB30F;
+}
+
+.btn-primary:active:focus,
+.btn-lg.active {
+    background-color: #FFB30F;
+    color: black;
+}
+
+.select-backing{
+    background-color: #FDF5E6;
+    width: auto;
+    height: fit-content;
+    margin-top:310px;
+    margin-bottom: 250px;
+}
+
+.profile-back{
+    background-color: #7e9c41;
+    height: 700px;
+    width: 100vw;
+    margin-top: 120px;
+}
+
+img{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+.profile-img{
+    align-self: center;
+    text-align: right;
+    padding-top: 15%;
+}
+
+.intro-div{
+    align-self: center;
+    padding-top: 40%;
+}
+
+h1{
+    font-size: 80px;
+}
+
+.fa-github,
+.fa-linkedin
+{
+    color: #FDF5E6;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.arrow{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.but-group{
+    background-color: #ED7A9B;
+    text-align: center;
+    padding: 50px;
+    border-radius: 25px;
+    width: 450px;
+    z-index: 1;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+.qual{
+    justify-content: center;
+}
+
+.qual-backing{
+    width: 60%;
+    height: fit-content;
+    background-color: #7e9c41;
+    margin-left: -50px;
+    border-radius: 25px;
+}
+
+.qual-text-backing{
+    background-color: #FFB30F;
+    color: #FDF5E6;
+    border-radius: 25px;
+    margin: 20px;
+    height: 450px;
+    padding: 20px;
+    text-wrap: 60;
+}
+
+.options{
+    padding: 30px;
+}
+
+.card{
+    background-color: #FFB30F;
+    height: 400px;
+    width: 35rem;
+    border: none;
+}
+
+.card-title{
+    font-size: xx-large;
+    padding: 5px;
+}
+
+.card-subtitle{
+    font-size: large;
+    padding: 5px;
+}
+
+.card-text{
+    padding: 5px;
+}
+
+body{
+    background-color: #FDF5E6;
+}
+
