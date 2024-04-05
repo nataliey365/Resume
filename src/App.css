@@ -1,0 +1,329 @@
+.btn-primary{
+    border: none;
+    padding: 20px;
+    margin: 20px 20px 20px 120px;
+    text-align: center;
+    font-size: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: #fceed4;
+    border-radius: 100px;
+    outline: auto;
+    outline-color: #FFB30F;
+    font-family: "Space Mono";
+    display: block;
+}
+
+.but-group{
+    padding: 10px;
+    width:20%;
+    height: fit-content;
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+.btn-icons{
+    height:50px;
+    width:50px;
+    margin:5px;
+}
+
+.btn-primary:hover{
+    background-color: #FFB30F;
+    width: 100%;
+    transition: 0.5s;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.btn-primary:active:focus,
+.btn-lg.active {
+    background-color: #FFB30F;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    margin-left: -20px;
+    animation-name: buttonPressed;
+    animation-duration: 1s;
+}
+
+.profile {
+    padding-top: 8%;
+}
+
+.select-backing{
+    width: auto;
+    height: fit-content;
+    margin-top:2%;
+    margin-bottom: 12%;
+}
+
+
+.pic{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+p{
+    font-family: "Space Mono";
+}
+
+.profile-img{
+    text-align: right;
+    align-items: center;
+    filter: drop-shadow(0mm 0mm 4mm #FFB30F);
+
+}
+
+.languages{
+    height: 80px;
+    width: 80px;
+    padding: 10px;
+    outline: auto;
+    border-radius: 100px;
+    outline-color: #FFB30F;
+    margin-right: 10px;
+    margin-left: 10px;
+    animation-name: skillsView;
+    animation-duration: 1s;
+}
+
+.lang-box{
+    width: fit-content;
+    float: right;
+    padding-bottom: 10px;
+}
+
+.intro-div{
+    align-items: center;
+    padding-top: 17%;
+    animation-duration: 2s;
+    animation-name: introSlide;
+    text-align: left;
+    padding-right: 20%;
+    width: 90%;
+}
+
+h1{
+    font-size: 80px;
+    color:#FFB30F;
+    font-family: "Playfair Display";
+    font-weight: bold;
+}
+
+.arrow{
+    text-align: center;
+    padding-bottom: 250px;
+}
+
+
+
+.qual-backing{
+    width: 75%;
+    height: 500px;
+    outline: auto;
+    outline-color: #FFB30F;
+    border-radius: 25px;
+    padding: 20px;
+}
+
+
+.options{
+    padding: 30px;
+}
+
+.card{
+    background-color:#fceed4;
+    border: none;
+    animation-name: cardView;
+    animation-duration: 1s;
+}
+
+.card-title{
+    font-size: xxx-large;
+    padding: 5px;
+    font-family: "Space Mono";
+    font-weight: bold;
+    width: fit-content;
+    display: inline-block;
+}
+
+.card-subtitle{
+    font-size: large;
+    padding: 5px;
+    font-family: "Space Mono";
+    font-style: italic;
+}
+
+.card-text{
+    padding: 5px;
+    font-family: "Space Mono";
+}
+
+body{
+    background-color:#fceed4;
+}
+
+.icons{
+    height:50px;
+    width:50px;
+    margin: 5px;
+}
+
+.icons:hover{
+    animation-name: spin;
+    animation-duration: 1s;
+}
+
+.arrow-style{
+    height: 25%;
+    width: 25%;
+}
+
+
+
+@keyframes introSlide {
+    from {
+        opacity: 0%;
+        margin-left: 10%;
+    }
+
+    to {
+        opacity: 100%;
+        margin-left: 0%;
+    }
+}
+
+
+@keyframes buttonPressed {
+    from {
+        background-color: #fceed4;
+    }
+
+    to {
+        background-color: #FFB30F;
+    }
+}
+@keyframes cardView {
+    from {
+        color: #fceed4;
+    }
+
+    to {
+        color: #212529;
+    }
+}
+
+@keyframes skillsView {
+    from {
+        opacity: 0%;
+    }
+
+    to {
+        opacity:100%;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media (max-width: 1030px){
+    .pic{
+        width: 300px;
+        height: 300px
+    }
+
+    .profile-img{
+        height: 100%;
+        width: 100%;
+        padding-top: 20%;
+    }
+    .intro-div{
+        text-align: center;
+        height:fit-content;
+        width: fit-content;
+        padding-right: 0%;
+    }
+
+    .profile{
+        padding-top: 2%;
+    }
+    
+    .arrow{
+        padding-bottom: 10px;
+    }
+
+    .btn-primary{
+        padding: 10px;
+        margin: 10px;
+        width: 90%;
+        display: inline-block;
+    }
+    
+    .but-group{
+        padding: 10px;
+        margin: 10px;
+        width:100%;
+        height: fit-content;
+    }
+
+    .btn-icons{
+        height:25px;
+        width:25px;
+    }
+    
+    .btn-primary:active:focus,
+    .btn-lg.active {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .select-backing{
+        padding-top: 0%;
+    }
+
+    .qual-backing{
+        width: 90%;
+        height: fit-content;
+        margin: 20px;
+    }
+ 
+    .card{
+        width: 100%;
+    }
+    
+    .card-title{
+        font-size: x-large;
+        width: 100%;
+        display: block;
+    }
+    
+    .card-subtitle{
+        font-size: medium;
+    }
+    
+    .card-text{
+        font-size: small;
+    }
+
+    .languages{
+        height: 60px;
+        width: 60px;
+        margin: 9px;
+    }
+
+    .lang-box{
+        width: 100%;
+        display: block;
+    }
+
+}
